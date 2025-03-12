@@ -71,6 +71,16 @@ O serviço estará disponível em: `http://localhost:8080/temperature/01001010`
 Esse projeto vem com Swagger.
 Para acessá-lo, entre em http://localhost:8080/swagger/index.html
 
+---
+
+## ☁️ Deploy no Google Cloud Run
+
+Este projeto foi publicado no **Google Cloud Run** e está disponível no seguinte endereço:
+
+👉 [https://goexpert-temperature-lab-ieusf5ioka-uc.a.run.app](https://goexpert-temperature-lab-ieusf5ioka-uc.a.run.app/temperature/01001010)
+
+---
+
 ## 📡 Endpoint da API
 
 ### `GET /temperature/{location}`
@@ -170,14 +180,6 @@ Execute os testes com o seguinte comando:
 ```bash
 go test ./...
 ```
-
----
-
-## ☁️ Deploy no Google Cloud Run
-
-Este projeto foi publicado no **Google Cloud Run** e está disponível no seguinte endereço:
-
-👉 [https://goexpert-temperature-lab-ieusf5ioka-uc.a.run.app](https://goexpert-temperature-lab-ieusf5ioka-uc.a.run.app/temperature/01001010)
 
 ---
 
