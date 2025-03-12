@@ -99,7 +99,7 @@ GET /weather/123
 **HTTP Status:** `422 Unprocessable Entity`  
 **Response:**
 ```json
-{ "message": "invalid zipcode" }
+{ "message": "invalid location" }
 ```
 
 ---
@@ -111,7 +111,7 @@ GET /weather/99999999
 **HTTP Status:** `404 Not Found`  
 **Response:**
 ```json
-{ "message": "can not find zipcode" }
+{ "message": "location not found" }
 ```
 
 ---
