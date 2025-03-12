@@ -62,22 +62,24 @@ docker build -t myweatherapi .
 docker run -p 8080:8080 myweatherapi
 ```
 
+---
+
 O serviço estará disponível em: `http://localhost:8080/temperature/01001010`
-
----
-
-## Documentação da API
-
-Esse projeto vem com Swagger.
-Para acessá-lo, entre em http://localhost:8080/swagger/index.html
-
----
 
 ## ☁️ Deploy no Google Cloud Run
 
 Este projeto foi publicado no **Google Cloud Run** e está disponível no seguinte endereço:
 
 👉 [https://goexpert-temperature-lab-ieusf5ioka-uc.a.run.app](https://goexpert-temperature-lab-ieusf5ioka-uc.a.run.app/temperature/01001010)
+
+---
+
+## Documentação da API
+
+Esse projeto vem com Swagger.
+Para acessá-lo, entre em:
+- Localmente: http://localhost:8080/swagger/index.html
+- No Serviço publicado: [Link](https://goexpert-temperature-lab-ieusf5ioka-uc.a.run.app/swagger/index.html)
 
 ---
 
