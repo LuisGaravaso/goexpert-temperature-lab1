@@ -48,12 +48,21 @@ Você deve ver tudo passando, conforme imagem abaixo:
 <img src="./readme/TestPass.png" width="600px">
 
 
-### 3. Rodando no Terminal
+### 4. Executando
+#### 4.1 Rodando no Terminal
 ```bash
 cd cmd && go run main.go
 ```
 
-O serviço estará disponível em: `http://localhost:8080`
+O serviço estará disponível em: `http://localhost:8080/temperature/01001010`
+
+#### 4.2 Rodando com Docker
+```bash
+docker build -t myweatherapi .
+docker run -p 8080:8080 myweatherapi
+```
+
+O serviço estará disponível em: `http://localhost:8080/temperature/01001010`
 
 ---
 
